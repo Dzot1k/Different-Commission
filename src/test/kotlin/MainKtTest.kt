@@ -8,7 +8,7 @@ class MainKtTest1 {
     fun transferWithAllDefaultParametersCardTypeAndAmountMonth(){
         val amount = 10_000
 
-        val expectedResult = " с карты Vk Pay не взимается, деньги переведены"
+        val expectedResult = "Комиссия с карты Vk Pay не взимается, деньги переведены"
 
         val actualResult = transfer(amount = amount)
 
